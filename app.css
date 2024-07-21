@@ -1,0 +1,191 @@
+@ -0,0 +1,191 @@
+/* App.css */
+
+body h1 {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+
+}
+
+.join {
+  color: white;
+}
+
+.over{
+  background-color: #1A1F1A;
+}
+
+
+.over h1 p{
+  color: white;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.paint {
+  background-color: green;
+}
+
+
+.free {
+  color: green;
+}
+
+
+.currently {
+  background-color: #024ebf; 
+  text-align: center;
+  padding: 10px;
+}
+
+.currently span {
+  color: rgb(255, 255, 255);
+ 
+  font-size: 12px;
+  font-weight: 700;
+  height: 16px;
+  line-height: 16px;
+
+ 
+
+}
+.gain {
+  text-align: center;
+  padding: 20px;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.play a {
+  display: block;
+  text-align: center;
+  margin: 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+.features {
+  padding: 20px;
+  text-align: center;
+}
+
+.features img {
+  width: 100px;
+  height: auto;
+  margin: 10px;
+}
+
+.features h2, .features h3, .features p {
+  margin: 10px 0;
+}
+
+.dashboard {
+  text-align: center;
+  padding: 20px;
+}
+
+.dashboard img {
+  width: 80%;
+  height: auto;
+}
+
+.sub-section {
+  padding: 20px;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-around;
+}
+
+.one {
+  width: 30%;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.one img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.support, .focus-offer, .stay, .follow, .pre-footer, .directions {
+  padding: 20px;
+  text-align: center;
+}
+
+.tone {
+  display: inline-block;
+  width: 30%;
+}
+
+.tone img {
+  width: 50px;
+  height: 50px;
+}
+
+.call, .stay, .follow {
+  background-color: #333;
+  color: white;
+}
+
+form {
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
